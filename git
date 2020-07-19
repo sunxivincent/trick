@@ -1,0 +1,4 @@
+reconsile messed up submodule (if local submodule doesn't sync with remote after git submodule update)
+1. git submodule update --init --force --remote
+2. git commit -am "xxx"
+3. git push
