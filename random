@@ -1,0 +1,7 @@
+set up k8s auto complete
+
+brew install bash-completion
+alias k=kubectl
+. /usr/local/etc/profile.d/bash_completion.sh
+complete -F __start_kubectl k
+source <(kubectl completion bash)
