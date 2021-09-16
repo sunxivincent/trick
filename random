@@ -5,3 +5,7 @@ alias k=kubectl
 . /usr/local/etc/profile.d/bash_completion.sh
 complete -F __start_kubectl k
 source <(kubectl completion bash)
+
+chrome模拟微信浏览器
+cmd+p -> network condition
+Mozilla/5.0 (iPhone; CPU iPhone OS 8_0 like Mac OS X) AppleWebKit/600.1.4 (KHTML, like Gecko) Mobile/12A365 MicroMessenger/5.4.1 NetType/WIF
