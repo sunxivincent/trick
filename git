@@ -2,3 +2,6 @@ reconsile messed up submodule (if local submodule doesn't sync with remote after
 1. git submodule update --init --force --remote
 2. git commit -am "xxx"
 3. git push
+
+auto track local branch without doing set-upstream 
+git config --global push.default current
